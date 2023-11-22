@@ -1,0 +1,16 @@
+C:\Users\Jakub\source\repos\Model\Model\bin\Debug\Model.exe.config
+C:\Users\Jakub\source\repos\Model\Model\bin\Debug\Model.exe
+C:\Users\Jakub\source\repos\Model\Model\bin\Debug\Model.pdb
+C:\Users\Jakub\source\repos\Model\Model\obj\Debug\Model.csproj.AssemblyReference.cache
+C:\Users\Jakub\source\repos\Model\Model\obj\Debug\Model.csproj.SuggestedBindingRedirects.cache
+C:\Users\Jakub\source\repos\Model\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\Jakub\source\repos\Model\Model\obj\Debug\Model.exe
+C:\Users\Jakub\source\repos\Model\Model\obj\Debug\Model.pdb
+C:\Users\Jakub\source\repos\Biblioteka7\Model\bin\Debug\Model.exe.config
+C:\Users\Jakub\source\repos\Biblioteka7\Model\bin\Debug\Model.exe
+C:\Users\Jakub\source\repos\Biblioteka7\Model\bin\Debug\Model.pdb
+C:\Users\Jakub\source\repos\Biblioteka7\Model\obj\Debug\Model.csproj.AssemblyReference.cache
+C:\Users\Jakub\source\repos\Biblioteka7\Model\obj\Debug\Model.csproj.SuggestedBindingRedirects.cache
+C:\Users\Jakub\source\repos\Biblioteka7\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\Jakub\source\repos\Biblioteka7\Model\obj\Debug\Model.exe
+C:\Users\Jakub\source\repos\Biblioteka7\Model\obj\Debug\Model.pdb

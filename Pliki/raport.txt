@@ -1,0 +1,4 @@
+ksiazki:4
+czasopisma:4
+lektury:8
+czytelnicy:2
