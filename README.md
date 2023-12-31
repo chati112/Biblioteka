@@ -9,29 +9,35 @@ Aplikacja posiada główny widok „Menu” z którego pracownik może przejść
 •	bazy czytelników,
 •	bazy wypożyczeń,
 •	raportu.
+![image](https://github.com/chati112/Biblioteka/assets/133596038/41a05b0e-2518-4521-aa6a-95e36818e997)
 
 
 Widok bazy lektur
 W powyższym widoku pracownik po podaniu wszystkich danych lektury może dodać ją do bazy lektur. W zależności od wybranej opcji w RadioButton (Ksiażka/Czasopismo) dla książki zostaje dodany NrISBN, a dla czasopisma NrISSN. Użytkownik może też usuwać i edytować lektury znajdujące się w bibliotece.  Po dodaniu lektury z kategorii wiekowej „Dorośli” zostaje ona wyróżniona odpowiednim kolorem. Widok ten posiada także opcje filtrowania zbiorów biblioteki. 
-
+![image](https://github.com/chati112/Biblioteka/assets/133596038/0c69875f-8611-4122-901f-c521d03f1f33)
 
 
 Widok bazy czytelników
 Widok ten odpowiada za czytelników biblioteki. Posiada trzy funkcjonalności czyli dodawanie, edycja i usuwanie czytelników w bibliotece.
+![image](https://github.com/chati112/Biblioteka/assets/133596038/9f6dabf9-103f-4c71-bf10-b306cae69f5c)
 
 
 Widok wypożyczeń
 W tym widoku pracownik może dodawać, edytować i usuwać wypożyczenia. Dane w „ComboBox Lektura” i „ComboBox Czytelnik” są pobierane na podstawie listy książek, czasopism i czytelników. 
+![image](https://github.com/chati112/Biblioteka/assets/133596038/81c0d651-ec5e-40c0-b7c0-6b3a6fe94b7b)
 
 
 Okno raportu
 Zawiera aktualne statystyki biblioteki (ilość książek, czasopism i czytelników). Po naciśnięciu przycisku „Generuj raport do pliku .txt” generuje się raport, który jest zapisywany w pliku .txt w folderze „Pliki”.
+![image](https://github.com/chati112/Biblioteka/assets/133596038/036eea41-e641-4bb1-a9ce-d0669390dd3a)
 
 
 
 
 
 Model dziedziny
+
+![image](https://github.com/chati112/Biblioteka/assets/133596038/e296603b-b548-429e-965e-96f52fba7452)
 
 1.	Klasa "Książka"  dziedziczy po klasie Lektura i reprezentuje książkę w bibliotece. Zawiera dodatkowe informacje dotyczące numeru ISBN. Klasa zawiera metody umożliwiające dodawanie, edytowanie i usuwanie książek. 
 Atrybuty:
@@ -52,9 +58,6 @@ Atrybuty:
 •	nr (publiczne pole statyczne typu long): Licznik służący do generowania unikalnych numerów kart bibliotecznych.
 Metody:
 •	ToString (przesłonięta metoda ToString): Zwraca reprezentację tekstową czytelnika w formacie "NumerKarty : Imie Nazwisko".
-
-
-
 
 3.	Klasa "Lektura" Klasa abstrakcyjna, jest klasą bazową dla różnych rodzajów lektur w bibliotece. Zawiera podstawowe informacje dotyczące tytułu, autora, roku wydania, wydawnictwa, ilości dostępnych sztuk, identyfikatora lektury oraz kategorii wiekowej. Klasa jest abstrakcyjna, co oznacza, że nie może być bezpośrednio instancjonowana. Wszystkie jej instancje są tworzone poprzez dziedziczące klasy.
 Atrybuty:
@@ -84,7 +87,6 @@ Metody:
 •	DodajWypozyczenie (publiczna statyczna metoda): Dodaje nowe wypożyczenie do listy wypozyczenia.
 •	EdytujWypozyczenie (publiczna statyczna metoda): Edytuje istniejące wypożyczenie na podstawie podanego indeksu. Aktualizuje wartości pól dataWypozyczenia, dataZwrotu, czytelnik, lektura i ilosc.
 •	UsuńWypozyczenie (publiczna statyczna metoda): Usuwa podane wypożyczenie z listy wypozyczenia.
-
 
 5.	Klasa "Czasopismo" dziedziczy po klasie Lektura i reprezentuje czasopismo w bibliotece. Posiada dodatkowe pole NumerISSN, które przechowuje numer identyfikacyjny czasopisma. Klasa zawiera również metody umożliwiające dodawanie, edytowanie i usuwanie czasopism.
 Atrybuty:
